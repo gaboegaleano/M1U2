@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Página HTML</title>
+</head>
+
+<body>
+    <!-- Asi se hace un comentario en HTML -->
+    <!-- La etiqueta h1 se puede usar solo 1 vez en HTML -->
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+    <!-- Ejemplo de DIV -->
+    <div>
+        <h2>Quienes somos</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam aliquid iure quas eligendi assumenda neque
+            quod itaque! Ab aperiam maiores excepturi accusantium dolore accusamus, eligendi officiis magni voluptatem,
+            non vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis in, saepe, culpa fugit molestiae, dolorem
+            et dolores quas similique ullam rem quod iure ab magnam eveniet accusantium ducimus odit.</p>
+    </div>
+    <!-- Ejemplos de Order List y Unorder List -->
+    <h3>Ejemplo Listas</h3>
+    <ul>
+        <li>River</li>
+        <li>Boca</li>
+        <li>San Lorenso</li>
+        <li>Independiente</li>
+        <li>Racing</li>
+    </ul>
+    <ol>
+        <li>River</li>
+        <li>Boca</li>
+        <li>San Lorenso</li>
+        <li>Independiente</li>
+        <li>Racing</li>
+    </ol>
+    <!-- Ejemplo Etiquetas VINCULOS -->
+    <h4>VINCULO</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloribus, quisquam magni dolorum ad, voluptatibus
+        non, qui quod assumenda pariatur ut repudiandae? Pariatur architecto doloribus facilis ad eos. Nulla, ipsam? -
+        <a href="https://www.google.com.ar">CLICK AQUI </a>en la misma solapa.
+    </p>
+    <p>Entra a GOOGLE haciendo <a href="https://www.google.com.ar" target="_blank">CLICK ACA </a>en otra solapa.</p>
+    <!-- Ejemplos de Etiquetas de Imagenes -->
+    <h5>Trabajos con Imagenes</h5>
+    <img src="dipper.jpg" alt="Dipper">
+    <img src="img/casa.jpg" alt="casa">
+    <!-- Esta es una etiqueta de audio -->
+    <audio src="mp3/Over_the_Horizon.mp3" controls></audio>
+    <!-- Esta es una etiqueta de video -->
+    <video src="mp4/VID-20221030-WA0034.mp4" poster="mp4/IMG-20200625-WA0042.jpg" controls></video>
+    <!-- Armado de FORM con Titulo afuera del cuadro -->
+    <h3>Completar el Siguiente FORMULARIO</h3>
+    <form action="" method="">
+        <p>
+            <label for="Nombre">Nombre</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="Apellido">Apellido</label>
+            <input type="text">
+        </p>
+        <p>
+            <input type="Submit" value="Ingresar">
+        </p>
+    </form>
+    <!-- Ingresar Usuario y Contraseña -->
+    <h3>Completar el USUARIO y CONTRASEÑA</h3>
+    <form action="" method="">
+        <p>
+            <label for="Usuario">Usuario</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass">
+        </p>
+    </form>
+    <p>
+        <!-- Al agregar value="Confirmar", me coloca Confirmar en el boton -->
+        <input type="Submit" value="Ingresar">
+    </p>
+    <!-- Armado de FORM con Titulo dentro del cuadro -->
+    <h3>Completar NOMBRE y APELLIDO</h3>
+    <form action="" method="">
+        <p>
+            <input type="text" placeholder="Nombre">
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <!-- Si no coloco value, coloca x default Enviar -->
+            <input type="Submit">
+        </p>
+    </form>
+    <label for="sexo">SEXO</label>
+    <ul>
+        <li>
+            <input type="radio" name="sexo" value="hombre">
+            <label>Hombre</label>
+        </li>
+        <li>
+            <input type="radio" name="sexo" value="mujer">
+            <label>Mujer</label>
+        </li>
+    </ul>
+        <!-- Forma de RADIO
+    <form action="" method="">
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="sexo">Mujer</label>
+        <input type="radio" name="sexo" value="Hombre">
+        <label for="sexo">Hombre</label>
+        <input type="Submit">
+    </form> -->
+</body>
+
+</html>
