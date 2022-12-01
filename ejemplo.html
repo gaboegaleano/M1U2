@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer Página HTML</title>
-</head>
+    <link rel="stylesheet" href="ejemplo.css" </head>
 
 <body>
     <!-- Asi se hace un comentario en HTML -->
@@ -20,10 +20,12 @@
     <!-- Ejemplo de DIV -->
     <div>
         <h2>Quienes somos</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam aliquid iure quas eligendi assumenda neque
+        <p class="parrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam aliquid iure quas eligendi
+            assumenda neque
             quod itaque! Ab aperiam maiores excepturi accusantium dolore accusamus, eligendi officiis magni voluptatem,
             non vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis in, saepe, culpa fugit molestiae, dolorem
+        <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis in, saepe, <span
+                class="resaltado1">fugit molestiae</span>, dolorem
             et dolores quas similique ullam rem quod iure ab magnam eveniet accusantium ducimus odit.</p>
     </div>
     <!-- Ejemplos de Order List y Unorder List -->
@@ -43,22 +45,25 @@
         <li>Racing</li>
     </ol>
     <!-- Ejemplo Etiquetas VINCULOS -->
-    <h4>VINCULO</h4>
+    <h4 class="subtitulo1">VINCULO</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloribus, quisquam magni dolorum ad, voluptatibus
         non, qui quod assumenda pariatur ut repudiandae? Pariatur architecto doloribus facilis ad eos. Nulla, ipsam? -
         <a href="https://www.google.com.ar">CLICK AQUI </a>en la misma solapa.
     </p>
-    <p>Entra a GOOGLE haciendo <a href="https://www.google.com.ar" target="_blank">CLICK ACA </a>en otra solapa.</p>
+    <p class="link1">Entra a GOOGLE haciendo <a href="https://www.google.com.ar" target="_blank">CLICK ACA </a>en otra
+        solapa.</p>
     <!-- Ejemplos de Etiquetas de Imagenes -->
-    <h5>Trabajos con Imagenes</h5>
-    <img src="dipper.jpg" alt="Dipper">
+    <h5 class="h51">Trabajos con Imagenes</h5>
     <div>
-        <class "casa1" img src="img/casa.jpg" alt="casa">
+        <img class="dipper1" src="dipper.jpg" alt="Dipper">
+    </div>
+    <div>
+        <img class="casa1" src="img/casa.jpg" alt="casa" />
     </div>
     <!-- Esta es una etiqueta de audio -->
-    <audio src="mp3/Over_the_Horizon.mp3" controls></audio>
+    <audio class="mp31" src="mp3/Over_the_Horizon.mp3" controls></audio>
     <!-- Esta es una etiqueta de video -->
-    <video src="mp4/VID-20221030-WA0034.mp4" poster="mp4/IMG-20200625-WA0042.jpg" controls></video>
+    <video class="mp41" src="mp4/VID-20221030-WA0034.mp4" poster="mp4/IMG-20200625-WA0042.jpg" controls></video>
     <!-- Armado de FORM con Titulo afuera del cuadro -->
     <h3>Completar el Siguiente FORMULARIO</h3>
     <form action="" method="">
@@ -124,13 +129,13 @@
         <label for="sexo">Hombre</label>
         <input type="Submit">
     </form> -->
-    <div>
+    <div id="circulo1">CIRCULO1
         <svg width="100" eight="100">
             <circle cx="50" cy="50" r="45" stroke="blue" stroke-width="4" fill="skyblue" />
         </svg>
     </div>
     <div>
-        <img src="img/flor.jpg" alt="flor" width="500" eight="100">
+        <img class="flor1" src="img/flor.jpg" alt="flor" width="500" eight="100">
     </div>
     <label for="Hobbies"></label>
     <ul>
@@ -162,5 +167,14 @@
             <input type="Submit" value="Enviar">
         </select>
     </p>
+
+    <div id="contenedor">
+        <div id="verde">Este div tiene posicionamiento estatico</div>
+        <div id="celeste">Este div tiene posicionamiento estatico</div>
+        <div id="amarillo">Este div tiene posicionamiento estatico</div>
+        <p>POSICIONAMIENTO ESTATICO: Es el posicionamiento por Default o 
+        normal, que venia trabajando hasta ahora</p>
+    </div>
 </body>
+
 </html>

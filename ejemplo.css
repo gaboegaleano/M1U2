@@ -1,4 +1,166 @@
-.casa1{
-border-radius: 15px 200px 200px 200px;
--webkit-border-radius: 15px 200px 200px 200px;
--moz-border-radius: 15px 200px 200px 200px;}
+h1 {
+    color: red;
+    background-color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: blue;
+    background-color: aquamarine;
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: white;
+    background-color: green;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    color: darkred;
+    background-color: coral;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5 {
+    color: darkgreen;
+    background-color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6 {
+    color: antiquewhite;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darksalmon;
+}
+
+.parrafo2 {
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resaltado1 {
+    color: darkblue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.subtitulo1 {
+    color: blue;
+    background-color: white;
+    text-align: left;
+}
+
+/*Todos los ul estan con Violeta*/
+ul {
+    color: blueviolet;
+}
+
+/*Todos los ol estan con Violeta*/
+ol {
+    color: crimson;
+}
+
+.link1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h51 {
+    text-align: center;
+    font-size: larger;
+    font-variant: small-caps;
+    background-color: white;
+}
+
+.dipper1 {
+    width: 250px;
+    /*padding-left: 50px;*/
+    margin-left: 200px;
+}
+
+.casa1 {
+    /*Esta propiedad genera imagen en semi circulo*/
+    border-radius: 15px 200px 200px 200px;
+    -webkit-border-radius: 15px 200px 200px 200px;
+    -moz-border-radius: 15px 200px 200px 200px;
+    margin-left: 200px;
+}
+
+.mp31{
+    margin: 200px;
+}
+
+.mp41{
+    padding-left: 200px;
+}
+
+.flor1{
+    border-radius: 15px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 15px 200px 200px 200px;
+    margin-left: 200px;
+}
+
+#circulo1{
+    width:300px;
+    height:300px;
+    background-color:coral;
+    padding:  10px;
+    border: 5px solid black;
+}
+
+#contenedor{
+    /*Detalle de borde y color de fondo*/
+    border: 1px solid black;
+    background-color: grey;
+    /*Esta es la posicion estatica*/
+    margin: 0 auto;
+    width: 60%;
+    height: 500px;
+}
+
+#verde{
+    /*Detalla margen de cuadro desde cpntenedor, ancho y alto*/
+    /*position: static;*/
+    margin: 0 auto;
+    height: 20%;
+    width: 94%;
+    /*Detalle de borde y color de fondo*/
+    border: 1px solid green;
+    background-color: chartreuse;
+    /*Separa cuadros internos desde el borde inferior*/
+    margin-bottom: 20px;
+}
+
+#celeste{
+    /*position: static;*/
+    margin: 0 auto;
+    height: 20%;
+    width: 94%;
+    border: 1px solid blue;
+    background-color: skyblue;
+    margin-bottom: 20px;
+}
+
+#amarillo{
+    /*position: static;*/
+    margin: 0 auto;
+    height: 20%;
+    width: 94%;
+    border: 1px solid yellowgreen;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
